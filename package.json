@@ -1,0 +1,23 @@
+{
+  "name": "simc-discord-bot",
+  "version": "0.1.0",
+  "description": "Discord bot example for the Simmit API. Simmit runs SimulationCraft (SimC) sims in the cloud. The /sim command returns DPS and a report link.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "register": "tsx src/register-commands.ts",
+    "start": "tsx src/bot.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
