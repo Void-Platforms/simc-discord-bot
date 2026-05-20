@@ -60,6 +60,10 @@ A typical `/sim` invocation uses around 200 credits. Running this bot for a Disc
 - **Webhooks instead of polling.** Register a webhook in your dashboard and drop the poll loop. See [the webhooks docs](https://dashboard.simmit.com/docs/api-advanced/webhooks).
 - **Running 24/7.** Deploy to any always-on Node host. Discord bots are long-lived processes, not serverless workloads.
 
+## Upstream
+
+[SimulationCraft](https://simulationcraft.org) is an independent open-source project. This example and the Simmit API are not affiliated with or endorsed by SimulationCraft. Simmit executes unmodified upstream SimC binaries.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
